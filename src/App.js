@@ -1,10 +1,12 @@
 import React from 'react'
-import HomeIcons from './component/molecules/HomeIcons'
+import './App.css'
+import homeImage from './assets/background-home.png'
+import Home from './component/pages/Home'
 
 function App() {
   return (
-    <div>
-      <HomeIcons />
+    <div style={{ width: '100vw', height: '630vh' }}>
+      <Home homeImage={homeImage} />
     </div>
   );
 }

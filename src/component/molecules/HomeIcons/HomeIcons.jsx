@@ -11,7 +11,7 @@ const HomeIcons = () => {
       alignItems: 'center',
     }}>
       {icons.map(icon => (
-        <Icon 
+        <Icon
           iconKey={icon} 
           key={icon} 
           isSmall 
