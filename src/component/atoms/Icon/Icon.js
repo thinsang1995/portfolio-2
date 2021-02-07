@@ -32,7 +32,7 @@ const Icon = (props) => {
   }, ['icon-wrapper']).join(' ')
 
   return (
-    <div className={props.iconKey} className={className} >
+    <div className={className} >
       <IconComponent />
     </div>
   )

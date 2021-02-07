@@ -22,4 +22,4 @@ const HomeIcons = () => {
   )
 }
 
-export default HomeIcons
+export default React.memo(HomeIcons)
