@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import Typical from 'react-typical'
 import HomeIcons from '../../molecules/HomeIcons'
 import ContainerWrapper from '../../atoms/ContainerWrapper'
 
-const Home = ({ backgroundImage }) => {
+const Home = ({ backgroundImage, backgroundColor }, ref) => {
   return (
-    <ContainerWrapper backgroundImage={backgroundImage}>
+    <ContainerWrapper 
+      backgroundImage={backgroundImage} 
+      backgroundColor={backgroundColor} 
+      ref={ref}
+    >
       <div>
         <h1 style={{fontSize: '4rem', margin: '0 10px'}}>Hello</h1>
       </div>
@@ -22,4 +26,4 @@ const Home = ({ backgroundImage }) => {
   )
 }
 
-export default Home
+export default forwardRef(Home)
