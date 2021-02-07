@@ -1,21 +1,11 @@
 import React from 'react'
 import Typical from 'react-typical'
 import HomeIcons from '../../molecules/HomeIcons'
+import ContainerWrapper from '../../atoms/ContainerWrapper'
 
-const Home = ({ homeImage }) => {
+const Home = ({ backgroundImage }) => {
   return (
-    <div style={{ 
-      backgroundImage: `url(${homeImage})`,
-      backgroundRepeat: 'unset',
-      backgroundSize: 'cover',
-      height: '100vh', 
-      width: '100vw',
-      justifyContent: 'center',
-      alignItems: 'center',
-      display: 'flex',
-      flexDirection: 'column',
-      color: '#fff',
-    }}>
+    <ContainerWrapper backgroundImage={backgroundImage}>
       <div>
         <h1 style={{fontSize: '4rem', margin: '0 10px'}}>Hello</h1>
       </div>
@@ -28,7 +18,7 @@ const Home = ({ homeImage }) => {
         />
       </div>
       <HomeIcons />
-    </div>
+    </ContainerWrapper>
   )
 }
 
