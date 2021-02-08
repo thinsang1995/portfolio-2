@@ -1,7 +1,6 @@
 import React, { forwardRef } from 'react'
 
 const ContainerWrapper = ({ children, backgroundImage, backgroundColor }, ref) => {
-
   return (
     <div
       ref={ref}
@@ -19,16 +18,7 @@ const ContainerWrapper = ({ children, backgroundImage, backgroundColor }, ref) =
         color: '#fff',
       }}
     >
-      <div style={{
-        width: '80vw',
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        flexDirection: 'column'}}
-      >
-        {children}
-      </div>
+      {children}
     </div>
   )
 }
