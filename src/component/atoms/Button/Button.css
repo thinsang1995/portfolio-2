@@ -1,0 +1,29 @@
+.btn {
+  width: auto;
+  height: auto;
+  padding: 0.7rem 2rem;
+
+  font-size: 0.9rem;
+  color: black;
+
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.isFill {
+  color: white;
+  background-color: black;
+}
+
+.btn.isFill:hover {
+  color: black;
+  background-color: white;
+}
