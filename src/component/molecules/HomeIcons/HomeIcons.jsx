@@ -1,5 +1,6 @@
 import React from 'react'
-import Icon from '../../atoms/Icon'
+import Icon from '../../atoms/Icon/Icon'
+
 
 const HomeIcons = () => {
   const icons = ['facebook', 'instagram', 'twitter', 'linkedin', 'youtube']
