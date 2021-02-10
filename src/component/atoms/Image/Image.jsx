@@ -13,7 +13,7 @@ import blogImg4 from '../../../assets/blog-4.jpg'
 import customerImg from '../../../assets/customer-avata.png'
 
 const images = {
-  aboutImage: aboutImg,
+  aboutAvata: aboutImg,
   portfolioImageNum1: portfolioImg1,
   portfolioImageNum2: portfolioImg2,
   portfolioImageNum3: portfolioImg3,
