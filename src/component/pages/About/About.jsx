@@ -4,7 +4,7 @@ import Image from '../../atoms/Image/Image'
 import './About.css'
 import AboutInfo from '../../organisms/AboutInfo'
 
-const About = ({ backgroundColor, imageName, skillLists, textContent }, ref) => {
+const About = ({ backgroundColor, imageName, textContent }, ref) => {
   return (
     <ContainerWrapper
       backgroundColor={backgroundColor}
@@ -14,7 +14,7 @@ const About = ({ backgroundColor, imageName, skillLists, textContent }, ref) => 
         <div className='about-avata'>
           <Image imageName={imageName} />
         </div>
-        <AboutInfo skillLists={skillLists} textContent={textContent} />
+        <AboutInfo textContent={textContent} />
       </div>
     </ContainerWrapper>
   )

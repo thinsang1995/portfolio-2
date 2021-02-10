@@ -6,8 +6,8 @@ import Text from '../../atoms/Text/Text'
 const AboutInfo = ({ skillLists, textContent }) => {
   return (
     <div>
-      <h2 style={{fontSize: '30px'}}>About Me.</h2>
-      <h4 
+      <h3 style={{fontSize: '30px'}}>About Me.</h3>
+      <h5 
         style={{
           margin: '0',
           marginBottom: '1rem',
@@ -19,7 +19,7 @@ const AboutInfo = ({ skillLists, textContent }) => {
         }}
       >
         FRONT END DEVELOPER
-      </h4>
+      </h5>
       <Text textContent={textContent} />
       <Skills skillLists={skillLists} />
       <Button content='Contact Me' />
