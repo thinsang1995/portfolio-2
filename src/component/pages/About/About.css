@@ -1,0 +1,39 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 40vw repeat(auto-fit, minmax(200px, 1fr));
+  width: 95vw;
+  height: auto;
+  margin: 15vh 0;
+  color: black;
+}
+
+.about-avata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.about-avata img {
+  width: 94%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vw repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .about-avata {
+    margin-bottom: 1rem;
+  }
+
+  .about-avata img {
+    width: 90%;
+    height: auto;
+  }
+}
