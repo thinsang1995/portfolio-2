@@ -17,6 +17,7 @@
 .navigation li {
   margin: 1rem;
   list-style-type: none;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -26,11 +27,20 @@
     justify-content: flex-start;
     align-items: center;
     padding: 0;
-    margin-left: 5vw;
+    height: 75px;
+  }
+
+  .navigation.isShow {
     height: 75px;
   }
 
   .navigation li {
     margin: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navigation {
+    margin-left: 5vw;
   }
 }

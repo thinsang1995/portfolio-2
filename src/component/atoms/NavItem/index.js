@@ -1,1 +1,1 @@
-export { defaut } from './NavItem'
+export { default } from './NavItem'
