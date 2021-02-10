@@ -1,16 +1,11 @@
 import React from 'react'
+import './Navigation.css'
+import NavItem from '../../atoms/NavItem/NavItem'
 
-const Link = ({ onClick, id, title }) =>{
-  // title => Title
+const Navigation = ({ links, handleScrollToEl, isShow }) => {
   return (
-    <button id={id} onClick={onClick}>{title}</button>
-  )
-}
-
-const Navigation = ({ links, handleScrollToEl }) => {
-  return (
-    <div style={{position: 'fixed'}}>
-      {links.map(link => <Link id={link} key={link} onClick={handleScrollToEl} title={link} />)}
+    <div className={`navigation ${isShow ? 'isShow' : ''}`}>
+      {links.map(link => <NavItem id={link} key={link} onClick={handleScrollToEl} title={link} />)}
     </div>
   )
 }
