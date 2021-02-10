@@ -19,14 +19,28 @@ const Home = ({ backgroundImage, backgroundColor }, ref) => {
         flexDirection: 'column'
       }}>
         <div>
-          <h1 style={{fontSize: '4rem', margin: '0 10px'}}>Hello</h1>
+          <h1 
+            style={{
+              fontSize: '4rem',
+              margin: '0 10px'
+            }}
+          >
+            Hello
+          </h1>
         </div>
-        <div style={{fontSize: '1rem', display: 'flex'}}>
-          <h1>I am&nbsp;</h1>
+        <div 
+          style={{
+            fontSize: '1.4rem', 
+            fontWeight: '200', 
+            display: 'flex', 
+            alignItems: 'baseline'
+          }}
+        >
+          <p>I Am&nbsp;</p>
           <Typical
-            steps={['Sang', 1000, 'Developer', 1000, 'from Vietnam', 1000]}
+            steps={['Sang', 1000, 'Developer', 1500, 'from Vietnam', 2000]}
             loop={Infinity}
-            wrapper="h1"
+            wrapper="span"
           />
         </div>
         <HomeIcons />
