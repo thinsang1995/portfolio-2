@@ -1,13 +1,13 @@
 .skill-status, .skill-process {
-  height: 2rem;
+  height: 1.8rem;
   border-radius: 5px;
   z-index: -1;
 }
 
 .skill-status {
   position: relative;
-  width: 100%;
   padding: 0 10px;
+  margin: 2rem 0;
   background-color: #f7f7f7;
   box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
 }
@@ -21,7 +21,7 @@
 
 .skill-status h6 {
   margin: 0;
-  padding: 0.2rem 1rem;
+  padding: 0.4rem 1rem;
   z-index: 1;
   font-size: 13px;
   color: white;
