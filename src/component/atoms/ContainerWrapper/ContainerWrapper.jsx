@@ -9,13 +9,15 @@ const ContainerWrapper = ({ children, backgroundImage, backgroundColor }, ref) =
         backgroundImage: `url(${backgroundImage})`,
         backgroundRepeat: 'unset',
         backgroundSize: 'cover',
-        height: '100vh', 
-        width: '100vw',
-        justifyContent: 'center',
-        alignItems: 'center',
         display: 'flex',
         flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 'auto', 
+        width: '100vw',
+        margin: '0',
         color: '#fff',
+        zIndex: '-1'
       }}
     >
       {children}

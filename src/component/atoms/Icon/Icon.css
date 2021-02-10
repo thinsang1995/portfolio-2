@@ -7,6 +7,7 @@
   border-radius: 35px;
   background-color: #f4f4f4;
   margin: 0 5px;
+  cursor: pointer;
 }
 
 .icon-wrapper > svg {
