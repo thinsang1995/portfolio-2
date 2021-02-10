@@ -38,7 +38,7 @@ const Home = ({ backgroundImage, backgroundColor }, ref) => {
         >
           <p>I Am&nbsp;</p>
           <Typical
-            steps={['Sang', 1000, 'Developer', 1500, 'from Vietnam', 2000]}
+            steps={['Sang', 1500, 'Developer',2000, 'from Vietnam', 3000]}
             loop={Infinity}
             wrapper="span"
           />
