@@ -14,12 +14,13 @@ const ServicesItem = ({ icon, title, textContent }) => {
         padding: '3rem 2rem',
         boxShadow: '0px 10px 30px -8px rgb(0 0 0 / 10%)',
         borderRadius: '10px',
+        backgroundColor: 'white',
       }}
     >
       <Icon iconKey={icon} key={icon} />
       <h4 
         style={{
-          margin: '1.3rem 0', 
+          margin: '1.1rem 0', 
           fontSize: '20px', 
           fontWeight: '800'
         }}

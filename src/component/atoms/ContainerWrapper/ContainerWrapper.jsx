@@ -16,8 +16,9 @@ const ContainerWrapper = ({ children, backgroundImage, backgroundColor }, ref) =
         height: 'auto', 
         width: '100vw',
         margin: '0',
+        padding: '9vh 0',
         color: '#fff',
-        zIndex: '-1'
+        zIndex: '-1',
       }}
     >
       {children}

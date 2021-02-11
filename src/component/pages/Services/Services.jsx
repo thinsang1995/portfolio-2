@@ -5,10 +5,7 @@ import ServicesList from '../../organisms/ServicesList'
 const Services = ({ backgroundColor }, ref) => {
   return (
     <ContainerWrapper backgroundColor={backgroundColor} ref={ref}>
-      <div style={{
-        padding: '9vh 0',
-        textAlign: 'center'
-      }}>
+      <div>
         <h2>Services.</h2>
         <ServicesList />
       </div>
