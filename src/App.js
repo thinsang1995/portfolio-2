@@ -5,6 +5,7 @@ import backgroundImage from './assets/background-home.png'
 import About from './component/pages/About/About'
 import Navbar from './component/organisms/Navbar/Navbar'
 import Services from './component/pages/Services'
+import Portfolio from './component/pages/Portfolio'
 
 
 const links = ['home', 'about', 'services', 'portfolio', 'blog', 'contact']
@@ -59,6 +60,7 @@ function App() {
       <Home backgroundImage={backgroundImage} ref={homeRef} />
       <About imageName='aboutAvata' textContent={texts.aboutText} ref={aboutRef} />
       <Services backgroundColor='#f7f7f7' ref={servicesRef} />
+      <Portfolio ref={portfolioRef} />
     </div>
   );
 }
