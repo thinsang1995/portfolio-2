@@ -1,4 +1,5 @@
 import React, { forwardRef } from 'react'
+import './Home.css'
 import Typical from 'react-typical'
 import HomeIcons from '../../molecules/HomeIcons'
 import ContainerWrapper from '../../atoms/ContainerWrapper'
@@ -28,14 +29,7 @@ const Home = ({ backgroundImage, backgroundColor }, ref) => {
             Hello
           </h1>
         </div>
-        <div 
-          style={{
-            fontSize: '1.4rem', 
-            fontWeight: '200', 
-            display: 'flex', 
-            alignItems: 'baseline'
-          }}
-        >
+        <div className='home-text'>
           <p>I Am&nbsp;</p>
           <Typical
             steps={['Sang', 1500, 'Developer',2000, 'from Vietnam', 3000]}
