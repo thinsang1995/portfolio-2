@@ -27,10 +27,19 @@
 
 .isFill {
   background-color: #000;
+  border: 1px solid black;
 }
 
 .isFill > svg {
   color: #fff;
+}
+
+.isFill:hover {
+  background-color: white;
+}
+
+.isFill:hover > svg {
+  color: black;
 }
 
 .icon-wrapper.isSmall {

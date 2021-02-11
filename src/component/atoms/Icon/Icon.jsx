@@ -5,7 +5,7 @@ import { DiHtml5, DiCss3, DiSass, DiJavascript1, DiReact } from 'react-icons/di'
 import { SiRedux } from 'react-icons/si';
 import { BsFillPeopleFill } from 'react-icons/bs';
 import { HiSpeakerphone }  from 'react-icons/hi';
-import { AiFillLike, AiFillFacebook } from 'react-icons/ai';
+import { AiFillLike, AiFillFacebook, AiOutlineLink, AiOutlineZoomIn } from 'react-icons/ai';
 
 const icons = {
   facebook: AiFillFacebook,
@@ -19,6 +19,8 @@ const icons = {
   javascript: DiJavascript1,
   react: DiReact,
   redux: SiRedux,
+  link: AiOutlineLink,
+  zoom: AiOutlineZoomIn,
   cloudDownload: FaCloudDownloadAlt,
   people: BsFillPeopleFill,
   speaker: HiSpeakerphone,
