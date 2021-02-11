@@ -27,20 +27,25 @@
     justify-content: flex-start;
     align-items: center;
     padding: 0;
-    height: 75px;
+    height: 60px;
   }
 
   .navigation.isShow {
-    height: 75px;
+    height: 60px;
   }
 
   .navigation li {
     margin: 1rem;
+    font-size: 0.9rem;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 900px) {
   .navigation {
     margin-left: 5vw;
+  }
+
+  .navigation li {
+    margin: 1.5rem;
   }
 }
