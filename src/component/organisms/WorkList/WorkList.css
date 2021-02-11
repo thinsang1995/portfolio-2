@@ -1,0 +1,21 @@
+.work-list {
+  display: grid;
+  gap: 1.5rem;
+  width: 95vw;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .work-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .work-list {
+    width: 1024px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
