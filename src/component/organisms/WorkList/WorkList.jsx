@@ -9,7 +9,7 @@ const WorkList = () => {
     {imageName: 'portfolioImageNum2', imageTitle: 'UX/UI'},
     {imageName: 'portfolioImageNum3', imageTitle: 'PHOTOSHOP'},
     {imageName: 'portfolioImageNum4', imageTitle: 'WEB DESIGN'},
-    {imageName: 'portfolioImageNum5', imageTitle: 'CODING'},
+    {imageName: 'portfolioImageNum5', imageTitle: 'UX/UI'},
     {imageName: 'portfolioImageNum6', imageTitle: 'WEB DESIGN'},
   ]
 

@@ -1,9 +1,9 @@
 .about-container {
   display: grid;
-  grid-template-columns: 40vw repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 50vw repeat(auto-fit, minmax(200px, 1fr));
   width: 95vw;
   height: auto;
-  margin: 8vh 0;
+  margin: 6vh 0;
   color: black;
 }
 
@@ -35,5 +35,13 @@
   .about-avata img {
     width: 90%;
     height: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-container {
+    display: grid;
+    grid-template-columns: 40vw repeat(auto-fit, minmax(200px, 1fr));
+    width: 1170px;
   }
 }

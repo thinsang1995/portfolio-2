@@ -17,9 +17,9 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
   .services-list {
-    width: 1024px;
+    width: 1170px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;

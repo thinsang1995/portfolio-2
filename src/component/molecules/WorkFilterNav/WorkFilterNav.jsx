@@ -14,7 +14,7 @@ const WorkFilterNav = () => {
       color: 'black'
     }}>
       {filterType.map(type => (
-        <FilterItem type={type} />
+        <FilterItem key={type} type={type} />
       ))}
     </div>
   )
