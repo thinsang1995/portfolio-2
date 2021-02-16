@@ -1,11 +1,15 @@
 import React from 'react'
 import './Navigation.css'
-import NavItem from '../../atoms/NavItem/NavItem'
 
 const Navigation = ({ links, handleScrollToEl, isShow }) => {
   return (
     <div className={`navigation ${isShow ? 'isShow' : ''}`}>
-      {links.map(link => <NavItem id={link} key={link} onClick={handleScrollToEl} title={link} />)}
+      {links.map(link => {
+        const linkName = link.charAt(0).toUpperCase() + link.slice(1)
+        return (
+          <span key={link} id={link} onClick={handleScrollToEl}>{linkName}</span>
+        )
+      })}
     </div>
   )
 }

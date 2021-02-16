@@ -14,9 +14,8 @@
   transition: all 0.5s ease-in;
 }
 
-.navigation li {
+.navigation span {
   margin: 1rem;
-  list-style-type: none;
   cursor: pointer;
 }
 
@@ -34,18 +33,14 @@
     height: 60px;
   }
 
-  .navigation li {
-    margin: 1rem;
+  .navigation span {
+    margin: 0.9rem;
     font-size: 0.9rem;
   }
 }
 
-@media only screen and (min-width: 900px) {
-  .navigation {
-    margin-left: 5vw;
-  }
-
-  .navigation li {
+@media only screen and (min-width: 950px) {
+  .navigation span {
     margin: 1.5rem;
   }
 }
