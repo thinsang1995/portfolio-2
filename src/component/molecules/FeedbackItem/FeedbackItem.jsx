@@ -1,19 +1,19 @@
 import React from 'react'
-import './ClientFeedback.css'
+import './FeedbackItem.css'
 import Image from '../../atoms/Image'
 import Text from '../../atoms/Text'
 
-const ClientFeedback = ({ clientAvata, feedbackContent, clientName, clientCompany }) => {
+const FeedbackItem = ({ clientAvata, clientFeedback, clientName, clientCompany }) => {
   return (
     <div className='client-item'>
       <div className='client-avata'>
-        <Image imageName={clientAvata} />
+        <Image imageSrc={clientAvata} />
       </div>
-      <Text content={feedbackContent} />
+      <Text content={clientFeedback} />
       <h6>{clientName}</h6>
       <span>{clientCompany}</span>
     </div>
   )
 }
 
-export default ClientFeedback
+export default FeedbackItem
