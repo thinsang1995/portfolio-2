@@ -32,7 +32,7 @@ const Home = ({ backgroundImage, backgroundColor }, ref) => {
         <div className='home-text'>
           <p>I Am&nbsp;</p>
           <Typical
-            steps={['Sang', 1500, 'Developer',2000, 'from Vietnam', 3000]}
+            steps={['Sang', 2000, 'Developer',3500, 'from Vietnam', 1000]}
             loop={Infinity}
             wrapper="span"
           />
