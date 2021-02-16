@@ -1,6 +1,6 @@
 import React from 'react'
 
-const filterType = ['all', 'web', 'react', 'redux']
+const workNavigation = ['all', 'web', 'react', 'redux']
 
 const WorkFilterNav = () => {
   return (
@@ -13,21 +13,18 @@ const WorkFilterNav = () => {
         color: 'black'
       }}
     >
-      {filterType.map(type => {
-        const typeName = type.charAt(0).toUpperCase() + type.slice(1)
-        return (
-          <span 
-            key={type}
-            style={{
-              margin: '0 1rem',
-              fontSize: '1.1rem',
-              fontWeight: '600'
-            }}
-          >
-            {typeName}
-          </span>
-        )
-      })}
+      {workNavigation.map(type => (
+        <span 
+          key={type}
+          style={{
+            margin: '0 1rem',
+            fontSize: '1.1rem',
+            fontWeight: '600'
+          }}
+        >
+          {type.charAt(0).toUpperCase() + type.slice(1)}
+        </span>
+      ))}
     </div>
   )
 }
