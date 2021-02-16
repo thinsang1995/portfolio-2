@@ -20,7 +20,7 @@ const ServiceList = () => {
           key={key} 
           icon={key} 
           title={services[key][0]} 
-          textContent={services[key][1]}
+          content={services[key][1]}
         />
       ))}
     </div>

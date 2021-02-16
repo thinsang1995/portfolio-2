@@ -3,13 +3,12 @@ import './WorkImage.css'
 import Icon from '../../atoms/Icon'
 import Image from '../../atoms/Image'
 
-const WorkImage = ({ imageName, imageTitle }) => {
+const overlayIcons = ['link', 'zoom']
 
-  const overlayIcons = ['link', 'zoom']
-
+const WorkImage = ({ imageSrc, imageTitle }) => {
   return (
     <div className='work-image'>
-      <Image imageName={imageName} />
+      <Image imageSrc={imageSrc} />
       <div className='work-overlay'>
         <div className='overlay-info'>
           <h6>{imageTitle}</h6>

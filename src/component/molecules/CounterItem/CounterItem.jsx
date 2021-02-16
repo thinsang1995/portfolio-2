@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from '../../atoms/Icon'
 import Text from '../../atoms/Text'
 
-const CounterItem = ({ iconKey, number, content }) => {
+const CounterItem = ({ iconKey, number, title }) => {
   return (
     <div
       style={{
@@ -23,7 +23,7 @@ const CounterItem = ({ iconKey, number, content }) => {
           fontWeight: '900'
         }}
       >{number}</h3>
-      <Text content={content} />
+      <Text content={title} />
     </div>
   )
 }
