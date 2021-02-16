@@ -27,5 +27,5 @@ const ServiceList = () => {
   )
 }
 
-export default ServicesList
+export default ServiceList
 
