@@ -1,0 +1,35 @@
+.client-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.client-avata {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 1rem;
+}
+
+.client-avata img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.client-item h6 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.client-item span {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #888;
+}
