@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from '../../atoms/Button/Button'
-import Skills from '../../molecules/Skills/Skills'
-import Text from '../../atoms/Text/Text'
+import Button from '../../atoms/Button'
+import Skills from '../../molecules/Skills'
+import Text from '../../atoms/Text'
 
 const AboutInfo = ({ skillLists, textContent }) => {
   return (
