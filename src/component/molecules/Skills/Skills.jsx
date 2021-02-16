@@ -1,16 +1,15 @@
 import React from 'react'
 import './Skills.css'
 
+const skills = [
+  {name: 'Html/Css', process: '70%'},
+  {name: 'JavaScript', process: '50%'},
+  {name: 'React', process: '40%'},
+  {name: 'React-Router', process: '30%'},
+  {name: 'Redux', process: '30%'},
+]
+
 const Skills = () => {
-
-  const skills = [
-    {name: 'Html/Css', process: '70%'},
-    {name: 'JavaScript', process: '50%'},
-    {name: 'React', process: '40%'},
-    {name: 'React-Router', process: '30%'},
-    {name: 'Redux', process: '30%'},
-  ]
-
   return (
     <div>
       {skills.map(skill => (
