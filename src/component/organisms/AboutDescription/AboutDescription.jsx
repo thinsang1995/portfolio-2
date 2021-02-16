@@ -3,7 +3,7 @@ import Button from '../../atoms/Button'
 import Skills from '../../molecules/Skills'
 import Text from '../../atoms/Text'
 
-const AboutInfo = ({ skills, content }) => {
+const AboutDescription = ({ content }) => {
   return (
     <div>
       <h3 style={{fontSize: '30px'}}>About Me.</h3>
@@ -21,10 +21,10 @@ const AboutInfo = ({ skills, content }) => {
         FRONT END DEVELOPER
       </h5>
       <Text content={content} />
-      <Skills skills={skills} />
+      <Skills />
       <Button content='Contact Me' />
     </div>
   )
 }
 
-export default AboutInfo
+export default AboutDescription

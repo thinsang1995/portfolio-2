@@ -2,9 +2,9 @@ import React, { forwardRef } from 'react'
 import ContainerWrapper from '../../atoms/ContainerWrapper'
 import Image from '../../atoms/Image'
 import './About.css'
-import AboutInfo from '../../organisms/AboutInfo'
+import AboutDescription from '../../organisms/AboutDescription'
 
-const About = ({ backgroundColor, imageName, textContent }, ref) => {
+const About = ({ backgroundColor, imageSrc, content }, ref) => {
   return (
     <ContainerWrapper
       backgroundColor={backgroundColor}
@@ -12,9 +12,9 @@ const About = ({ backgroundColor, imageName, textContent }, ref) => {
     >
       <div className='about-container'>
         <div className='about-avatar'>
-          <Image imageName={imageName} />
+          <Image imageSrc={imageSrc} />
         </div>
-        <AboutInfo textContent={textContent} />
+        <AboutDescription content={content} />
       </div>
     </ContainerWrapper>
   )
