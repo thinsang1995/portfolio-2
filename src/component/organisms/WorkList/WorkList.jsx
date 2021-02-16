@@ -15,9 +15,9 @@ const WorkList = () => {
 
   return (
     <div className='work-list'>
-      {works.map((item, index) => (
+      {works.map(item => (
         <WorkImage 
-          key={index}
+          key={item.imageName}
           imageName={item.imageName} 
           imageTitle={item.imageTitle} 
         />

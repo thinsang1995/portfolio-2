@@ -1,7 +1,7 @@
 import React from 'react'
 import './WorkImage.css'
-import Icon from '../../atoms/Icon/Icon'
-import Image from '../../atoms/Image/Image'
+import Icon from '../../atoms/Icon'
+import Image from '../../atoms/Image'
 
 const WorkImage = ({ imageName, imageTitle }) => {
 
