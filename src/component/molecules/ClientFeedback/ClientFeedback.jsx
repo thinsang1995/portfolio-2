@@ -9,7 +9,7 @@ const ClientFeedback = ({ clientAvata, feedbackContent, clientName, clientCompan
       <div className='client-avata'>
         <Image imageName={clientAvata} />
       </div>
-      <Text textContent={feedbackContent} />
+      <Text content={feedbackContent} />
       <h6>{clientName}</h6>
       <span>{clientCompany}</span>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Text = ({ textContent }) => {
+const Text = ({ content }) => {
   return <p 
     style={{
       margin: '0',
@@ -10,7 +10,7 @@ const Text = ({ textContent }) => {
       wordSpacing: '1.5px'
     }}
   >
-    {textContent}
+    {content}
   </p>
 }
 

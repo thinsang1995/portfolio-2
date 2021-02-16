@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from '../../atoms/Icon'
 import Text from '../../atoms/Text'
 
-const ServicesItem = ({ icon, title, textContent }) => {
+const ServicesItem = ({ icon, title, content }) => {
   return (
     <div 
       style={{
@@ -27,7 +27,7 @@ const ServicesItem = ({ icon, title, textContent }) => {
       >
         {title}
       </h4>
-      <Text textContent={textContent} />
+      <Text content={content} />
     </div>
   )
 }
