@@ -1,6 +1,6 @@
 import React from 'react'
-import Icon from '../../atoms/Icon/Icon'
-import Text from '../../atoms/Text/Text'
+import Icon from '../../atoms/Icon'
+import Text from '../../atoms/Text'
 
 const ServicesItem = ({ icon, title, textContent }) => {
   return (
@@ -17,7 +17,7 @@ const ServicesItem = ({ icon, title, textContent }) => {
         backgroundColor: 'white',
       }}
     >
-      <Icon iconKey={icon} key={icon} />
+      <Icon iconKey={icon} />
       <h4 
         style={{
           margin: '1.1rem 0', 
