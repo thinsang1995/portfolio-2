@@ -1,18 +1,21 @@
 import React from 'react'
 import './Feedbacks.css'
-import ClientFeedback from '../../molecules/ClientFeedback'
+import FeedbackItem from '../../molecules/FeedbackItem'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import customerImg1 from '../../../assets/customer-avata-1.png'
+import customerImg2 from '../../../assets/customer-avata-2.jpg'
+import customerImg3 from '../../../assets/customer-avata-3.png'
+
+const clients = [
+  {avata: customerImg1, content: "Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley oftype and scrambled it to make a type specimen book." , name: 'Alex Smith', company: 'ABC Company'},
+  {avata: customerImg2, content: "Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley oftype and scrambled it to make a type specimen book." , name: 'David Beckham', company: 'ABCDE Group'},
+  {avata: customerImg3, content: "Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley oftype and scrambled it to make a type specimen book." , name: 'John Cena', company: 'XYZ Company'},
+]
 
 const Feedbacks = () => {
-
-  const clients = [
-    {avata: 'customerImage1', content: "Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley oftype and scrambled it to make a type specimen book." , name: 'Alex Smith', company: 'ABC Company'},
-    {avata: 'customerImage2', content: "Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley oftype and scrambled it to make a type specimen book." , name: 'David Beckham', company: 'ABCDE Group'},
-    {avata: 'customerImage3', content: "Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley oftype and scrambled it to make a type specimen book." , name: 'John Cena', company: 'XYZ Company'},
-  ]
-
+  
   const settings = {
     dots: true,
     infinite: true,
@@ -34,10 +37,10 @@ const Feedbacks = () => {
     >
       <Slider {...settings}>
         {clients.map(client => (
-          <ClientFeedback 
-            key={client.avata} 
+          <FeedbackItem 
+            key={client.avata.toString()} 
             clientAvata={client.avata} 
-            feedbackContent={client.content} 
+            clientFeedback={client.content} 
             clientName={client.name} 
             clientCompany={client.company} 
           />
