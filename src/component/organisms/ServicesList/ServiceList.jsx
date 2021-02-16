@@ -13,9 +13,6 @@ const services = {
 }
 
 const ServiceList = () => {
-
-  
-
   return (
     <div className='services-list'>
       {Object.keys(services).map(key => (
