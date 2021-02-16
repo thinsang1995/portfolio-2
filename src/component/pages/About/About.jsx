@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react'
 import ContainerWrapper from '../../atoms/ContainerWrapper'
-import Image from '../../atoms/Image/Image'
+import Image from '../../atoms/Image'
 import './About.css'
 import AboutInfo from '../../organisms/AboutInfo'
 
@@ -11,7 +11,7 @@ const About = ({ backgroundColor, imageName, textContent }, ref) => {
       ref={ref}
     >
       <div className='about-container'>
-        <div className='about-avata'>
+        <div className='about-avatar'>
           <Image imageName={imageName} />
         </div>
         <AboutInfo textContent={textContent} />
