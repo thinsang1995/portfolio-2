@@ -1,6 +1,6 @@
 import React from 'react'
 import './ServiceList.css'
-import ServiceItem from '../../molecules/ServicesItem'
+import ServiceItem from '../../molecules/ServiceItem'
 
 // Just for homework, it can't be use in reality
 const services = {
