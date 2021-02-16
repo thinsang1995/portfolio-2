@@ -1,9 +1,8 @@
 import React from 'react'
 
+const filterType = ['all', 'web', 'react', 'redux']
+
 const WorkFilterNav = () => {
-
-  const filterType = ['all', 'web', 'react', 'redux']
-
   return (
     <div 
       style={{
