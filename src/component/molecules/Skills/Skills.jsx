@@ -1,24 +1,23 @@
 import React from 'react'
-import SkillStatus from '../../atoms/SkillStatus/SkillStatus'
+import './Skills.css'
 
 const Skills = () => {
 
-  const skillLists = [
-    {skillName: 'Html/Css', skillProcess: '70%'},
-    {skillName: 'JavaScript', skillProcess: '50%'},
-    {skillName: 'React', skillProcess: '40%'},
-    {skillName: 'React-Router', skillProcess: '30%'},
-    {skillName: 'Redux', skillProcess: '30%'},
+  const skills = [
+    {name: 'Html/Css', process: '70%'},
+    {name: 'JavaScript', process: '50%'},
+    {name: 'React', process: '40%'},
+    {name: 'React-Router', process: '30%'},
+    {name: 'Redux', process: '30%'},
   ]
 
   return (
     <div>
-      {skillLists.map((skill, index) => (
-        <SkillStatus 
-          key={index} 
-          skillName={skill.skillName} 
-          skillProcess={skill.skillProcess} 
-        />
+      {skills.map(skill => (
+        <div key={skill.name.toLowerCase()} className='skill-status'>
+          <h6>{skill.name}</h6>
+          <span className='skill-process' style={{width: `${skill.process}`}}></span>
+        </div>
       ))}
     </div>
   )
