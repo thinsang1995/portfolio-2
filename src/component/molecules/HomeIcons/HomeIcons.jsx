@@ -1,10 +1,9 @@
 import React from 'react'
-import Icon from '../../atoms/Icon/Icon'
+import Icon from '../../atoms/Icon'
 
+const icons = ['facebook', 'instagram', 'twitter', 'linkedin', 'youtube']
 
 const HomeIcons = () => {
-  const icons = ['facebook', 'instagram', 'twitter', 'linkedin', 'youtube']
-
   return (
     <div style={{
       display: 'flex',
