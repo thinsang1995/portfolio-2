@@ -2,17 +2,20 @@ import React, { useRef, useState } from 'react'
 import './App.css'
 import Home from './component/pages/Home'
 import backgroundImage from './assets/background-home.png'
+import aboutImg from './assets/avata-picture.png'
 import About from './component/pages/About/About'
 import Navbar from './component/organisms/Navbar/Navbar'
 import Services from './component/pages/Services'
 import Portfolio from './component/pages/Portfolio'
+import Clients from './component/pages/Clients'
+import Blog from './component/pages/Blog'
 
 
-const links = ['home', 'about', 'services', 'portfolio', 'blog', 'contact']
+const links = ['home', 'about', 'services', 'portfolio', 'clients', 'blog', 'contact']
 
-const texts = {
-  aboutText: "I am Thin Sang Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing"
-}
+const aboutDescription = "I am Thin Sang Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing"
+
+const greyColor = '#f7f7f7'
 
 function App() {
   const aboutRef = useRef(null)
@@ -50,7 +53,7 @@ function App() {
   }
 
   return (
-    <div style={{ width: '100vw', height: '610vh' }}>
+    <div style={{ width: '100vw', height: '710vh' }}>
       <Navbar 
         links={links} 
         handleScrollToEl={handleScrollToEl}
@@ -58,9 +61,11 @@ function App() {
         isShow={isShow}
       />
       <Home backgroundImage={backgroundImage} ref={homeRef} />
-      <About imageName='aboutAvata' textContent={texts.aboutText} ref={aboutRef} />
-      <Services backgroundColor='#f7f7f7' ref={servicesRef} />
+      <About imageSrc={aboutImg} content={aboutDescription} ref={aboutRef} />
+      <Services backgroundColor={greyColor} ref={servicesRef} />
       <Portfolio ref={portfolioRef} />
+      <Clients ref={clientsRef} />
+      <Blog ref={blogRef} />
     </div>
   );
 }
