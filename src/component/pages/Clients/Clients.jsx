@@ -4,7 +4,7 @@ import Feedbacks from '../../organisms/Feedbacks'
 
 const Clients = (props, ref) => {
   return (
-    <div>
+    <div style={{height: '100vh'}}>
       <div
         ref={ref}
         style={{
