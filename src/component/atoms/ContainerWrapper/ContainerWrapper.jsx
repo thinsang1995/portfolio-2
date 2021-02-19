@@ -13,7 +13,7 @@ const ContainerWrapper = ({ children, backgroundImage, backgroundColor }, ref) =
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '82vh', 
+        height: 'auto', 
         width: '100vw',
         margin: '0',
         padding: '9vh 0',
