@@ -5,7 +5,8 @@ import { DiHtml5, DiCss3, DiSass, DiJavascript1, DiReact } from 'react-icons/di'
 import { SiRedux } from 'react-icons/si';
 import { BsFillPeopleFill } from 'react-icons/bs';
 import { HiSpeakerphone }  from 'react-icons/hi';
-import { AiFillLike, AiFillFacebook, AiOutlineLink, AiOutlineZoomIn } from 'react-icons/ai';
+import { AiFillLike, AiFillFacebook, AiOutlineLink, AiOutlineZoomIn, AiOutlineMail } from 'react-icons/ai';
+import { FiNavigation, FiPhone } from 'react-icons/fi';
 
 const icons = {
   facebook: AiFillFacebook,
@@ -25,6 +26,9 @@ const icons = {
   people: BsFillPeopleFill,
   speaker: HiSpeakerphone,
   like: AiFillLike,
+  navigate: FiNavigation,
+  email: AiOutlineMail,
+  phone: FiPhone
 }
 
 const Icon = (props) => {
