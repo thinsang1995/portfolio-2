@@ -9,6 +9,7 @@ import Services from './component/pages/Services'
 import Portfolio from './component/pages/Portfolio'
 import Clients from './component/pages/Clients'
 import Blog from './component/pages/Blog'
+import Contact from './component/pages/Contact'
 
 
 const links = ['home', 'about', 'services', 'portfolio', 'clients', 'blog', 'contact']
@@ -66,6 +67,7 @@ function App() {
       <Portfolio ref={portfolioRef} />
       <Clients ref={clientsRef} />
       <Blog ref={blogRef} />
+      <Contact />
     </div>
   );
 }
