@@ -3,7 +3,7 @@ import Button from '../../atoms/Button'
 import Skills from '../../molecules/Skills'
 import Text from '../../atoms/Text'
 
-const AboutDescription = ({ content }) => {
+const AboutDescription = ({ content, buttonName }) => {
   return (
     <div>
       <h3 style={{fontSize: '30px'}}>About Me.</h3>
@@ -22,7 +22,7 @@ const AboutDescription = ({ content }) => {
       </h5>
       <Text content={content} />
       <Skills />
-      <Button content='Contact Me' />
+      <Button content={buttonName} />
     </div>
   )
 }
