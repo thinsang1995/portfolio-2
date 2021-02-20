@@ -20,3 +20,9 @@ h2 {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
+
+textarea, input {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  color: #748182;
+}
