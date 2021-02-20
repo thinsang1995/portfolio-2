@@ -10,11 +10,12 @@ const ContactItem = ({ iconKey, title, content }) => {
       justifyContent: 'center',
       alignItems: 'center',
       textAlign: 'center',
-      width: '30vw',
+      width: '32vw',
+      marginTop: '2rem'
     }}>
       <Icon iconKey={iconKey} />
       <h6 style={{
-        margin: '1rem 0',
+        margin: '0.8rem 0',
         fontSize: '1rem',
         fontWeight: '600',
       }}>{title}</h6>
