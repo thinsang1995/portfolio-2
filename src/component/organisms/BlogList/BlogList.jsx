@@ -22,14 +22,14 @@ const BlogList = () => {
     autoplaySpeed: 3000,
     pauseOnHover: true,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           initialSlide: 2
         }
       },
@@ -37,7 +37,7 @@ const BlogList = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           initialSlide: 2
         }
       },
