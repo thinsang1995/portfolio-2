@@ -1,0 +1,40 @@
+.contact-form {
+  margin: 0 auto ;
+  padding: 0 1.8rem;
+}
+
+.contact-form textarea, input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+
+.input-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-block input {
+  width: 45%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-form {
+    width: 1170px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .input-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .input-block input {
+    width: 100%;
+  }
+}
