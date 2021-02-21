@@ -1,5 +1,4 @@
 import React, { forwardRef } from 'react'
-import './ContainerWrapper.css'
 
 const ContainerWrapper = ({ children, backgroundImage, backgroundColor }, ref) => {
   return (
@@ -11,6 +10,16 @@ const ContainerWrapper = ({ children, backgroundImage, backgroundColor }, ref) =
         backgroundImage: `url(${backgroundImage})`,
         backgroundRepeat: 'unset',
         backgroundSize: 'cover',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '82vh',
+        width: '100%',
+        margin: '0',
+        padding: '9vh 0',
+        color: '#fff',
+        zIndex: '-1',
       }}
     >
       {children}
