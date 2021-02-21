@@ -26,3 +26,9 @@ textarea, input {
   font-size: 0.9rem;
   color: #748182;
 }
+
+@media only screen and (max-width: 550px) {
+  h2 {
+    font-size: 30px;
+  }
+} 
