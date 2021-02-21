@@ -60,7 +60,7 @@ function App() {
   }
 
   return (
-    <div style={{ width: '100vw', height: 'auto' }}>
+    <div>
       <Navbar 
         links={links} 
         handleScrollToEl={handleScrollToEl}
@@ -71,10 +71,10 @@ function App() {
       <About imageSrc={aboutImg} content={aboutDescription} buttonName={aboutButtonName} ref={aboutRef} />
       <Services backgroundColor={greyColor} ref={servicesRef} />
       <Portfolio ref={portfolioRef} />
-      <Clients ref={clientsRef} />
+      {/* <Clients ref={clientsRef} />
       <Blog ref={blogRef} />
       <Contact buttonName={contactButtonName} ref={contactRef} />
-      <Footer content={footerContent} />
+      <Footer content={footerContent} /> */}
     </div>
   );
 }
