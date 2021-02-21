@@ -1,21 +1,25 @@
 .work-list {
   display: grid;
-  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
   width: 95vw;
   margin: auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 500px) {
   .work-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .work-list {
-    width: 1170px;
+    max-width: 1170px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
   }
 }
