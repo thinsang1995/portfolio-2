@@ -24,14 +24,6 @@
   font-weight: 800;
 }
 
-/* @media only screen and (max-width: 300px) {
-  .service-item h4 {
-    margin: 0.5rem 0;
-    font-size: 0.5rem;
-    font-weight: 800;
-  }
-} */
-
 @media only screen and (max-width: 500px) {
   .service-item {
     background-color: transparent;
