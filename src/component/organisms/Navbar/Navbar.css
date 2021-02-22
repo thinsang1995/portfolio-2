@@ -35,10 +35,29 @@
   background-color: black;
 }
 
+@media only screen and (max-width: 500px) {
+  .nav-bar {
+    height: 45px;
+  }
+
+  .nav-bar h2 {
+    padding: 0.2rem 0;
+    padding-left: 8vw;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 0.3rem;
+    right: 6vw;
+    width: 30px;
+    height: 25px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .nav-bar {
     display: grid;
-    grid-template-columns: 30vw repeat(auto-fill, minmax(50vw, auto));
+    grid-template-columns: 28vw repeat(auto-fill, minmax(50vw, auto));
   }
 
   .hamburger {
