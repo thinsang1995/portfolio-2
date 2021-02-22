@@ -51,7 +51,7 @@ const BlogList = () => {
     ]
   };
   return (
-    <div style={{padding: '0 1rem', margin: '10vh auto', maxWidth: '1170px'}}>
+    <div style={{padding: '0 1rem', margin: '9vh auto', maxWidth: '1170px'}}>
       <Slider {...settings}>
         {blogs.map(blog => (
           <BlogItem 
