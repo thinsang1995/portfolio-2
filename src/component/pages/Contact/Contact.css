@@ -1,0 +1,16 @@
+.contact {
+  padding: 9vh 0;
+  height: 84vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    height: 80vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact {
+    height: 82vh;
+  }
+}
