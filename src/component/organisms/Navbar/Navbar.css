@@ -56,10 +56,10 @@
 
 @media only screen and (min-width: 768px) {
   .nav-bar {
+    width: 100%;
     display: grid;
     grid-template-columns: 28vw repeat(auto-fill, minmax(50vw, auto));
   }
-
   .hamburger {
     display: none;
   }
@@ -67,8 +67,14 @@
 
 @media only screen and (min-width: 1200px) {
   .nav-bar {
-    width: 1170px;
-    display: grid;
-    grid-template-columns: 43vw repeat(auto-fill, minmax(57vw, auto));
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-bar h2 {
+    width: 150px;
+    padding: 0;
+    display: flex;
+    justify-self: flex-start;
   }
 }

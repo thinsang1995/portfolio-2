@@ -8,10 +8,10 @@ const Navbar = ({ links, handleScrollToEl, handleShowNavItem, isShow }) => {
       <h2>Sang</h2>
       <Navigation links={links} handleScrollToEl={handleScrollToEl} isShow={isShow} />
       <div className='hamburger' onClick={handleShowNavItem}>
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-        </div>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
     </div>
   )
 }
