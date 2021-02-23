@@ -71,8 +71,8 @@ function App() {
       <About imageSrc={aboutImg} content={aboutDescription} buttonName={aboutButtonName} ref={aboutRef} />
       <Services backgroundColor={greyColor} ref={servicesRef} />
       <Portfolio ref={portfolioRef} />
-      {/* <Clients ref={clientsRef} />
-      <Blog ref={blogRef} />
+      <Clients ref={clientsRef} />
+      {/* <Blog ref={blogRef} />
       <Contact buttonName={contactButtonName} ref={contactRef} />
       <Footer content={footerContent} /> */}
     </div>
