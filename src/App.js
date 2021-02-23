@@ -72,9 +72,9 @@ function App() {
       <Services backgroundColor={greyColor} ref={servicesRef} />
       <Portfolio ref={portfolioRef} />
       <Clients ref={clientsRef} />
-      {/* <Blog ref={blogRef} />
+      {/* <Blog ref={blogRef} /> */}
       <Contact buttonName={contactButtonName} ref={contactRef} />
-      <Footer content={footerContent} /> */}
+      <Footer content={footerContent} />
     </div>
   );
 }
