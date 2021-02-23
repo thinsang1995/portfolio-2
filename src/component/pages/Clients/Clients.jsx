@@ -4,8 +4,9 @@ import Feedbacks from '../../organisms/Feedbacks'
 
 const Clients = (props, ref) => {
   return (
-    <div>
+    <section className='clients-section'>
       <div
+        id='clients'
         ref={ref}
         style={{
           height: 'auto', 
@@ -18,7 +19,7 @@ const Clients = (props, ref) => {
         <Feedbacks />
       </div>
         <Counter />
-    </div>
+    </section>
   )
 }
 

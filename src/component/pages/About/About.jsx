@@ -10,7 +10,7 @@ const About = ({ backgroundColor, imageSrc, content, buttonName }, ref) => {
       backgroundColor={backgroundColor}
       ref={ref}
     >
-      <div className='about-container'>
+      <div id='about' className='about-container'>
         <div className='about-avatar'>
           <Image imageSrc={imageSrc} />
         </div>

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react'
 
 const ContainerWrapper = ({ children, backgroundImage, backgroundColor }, ref) => {
   return (
-    <div
+    <section
       className='container-wrapper'
       ref={ref}
       style={{
@@ -23,7 +23,7 @@ const ContainerWrapper = ({ children, backgroundImage, backgroundColor }, ref) =
       }}
     >
       {children}
-    </div>
+    </section>
   )
 }
 

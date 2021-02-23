@@ -11,14 +11,17 @@ const Home = ({ backgroundImage, backgroundColor }, ref) => {
       backgroundColor={backgroundColor} 
       ref={ref}
     >
-      <div style={{
-        width: '80vw',
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        flexDirection: 'column'
-      }}>
+      <div 
+        id='home'
+        style={{
+          width: '80vw',
+          height: '100vh',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          flexDirection: 'column'
+        }}
+      >
         <div>
           <h1 
             style={{

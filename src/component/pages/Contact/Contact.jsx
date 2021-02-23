@@ -1,15 +1,18 @@
 import React, { forwardRef } from 'react'
-import './Contact.css'
 import ContactForm from '../../organisms/ContactForm'
 import ContactInfo from '../../organisms/ContactInfo'
+import ContainerWrapper from '../../atoms/ContainerWrapper'
 
 const Contact = ({ buttonName }, ref) => {
   return (
-    <div className="contact" ref={ref}>
-      <h2>Contact.</h2>
-      <ContactInfo />
-      <ContactForm buttonName={buttonName} />
-    </div>
+    <ContainerWrapper ref={ref}>
+      <div id='contact'>
+        <h2>Contact.</h2>
+        <ContactInfo />
+        <ContactForm buttonName={buttonName} />
+      </div>
+
+    </ContainerWrapper>
   )
 }
 
