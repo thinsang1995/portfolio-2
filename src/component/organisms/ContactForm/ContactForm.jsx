@@ -9,7 +9,7 @@ const ContactForm = ({buttonName}) => {
         <input type='text' placeholder='Name' required='required' />
         <input type='text' placeholder='Email' required='required' />
       </div>
-      <textarea cols="30" rows="10" required='required'>Message</textarea>
+      <textarea placeholder='Message' required='required'></textarea>
       <Button content={buttonName} isFill />
     </form>
   )
