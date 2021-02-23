@@ -1,3 +1,7 @@
+textarea {
+  height: 15vh;
+}
+
 .contact-form {
   margin: 0 auto ;
   padding: 0 1.8rem;
@@ -22,19 +26,53 @@
   width: 45%;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 600px) {
   .contact-form {
-    width: 1170px;
+    padding: 0 0.5rem;
+  }
+  
+  .contact-form textarea, input {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+  }
+
+  .input-block input {
+    width: 45%;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .input-block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
   }
+  
+  .contact-form textarea, input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+
   .input-block input {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .input-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .input-block input {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-form {
+    width: 1170px;
   }
 }
