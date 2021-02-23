@@ -1,24 +1,13 @@
 import React from 'react'
+import './ContactItem.css'
 import Icon from '../../atoms/Icon'
 import Text from '../../atoms/Text'
 
 const ContactItem = ({ iconKey, title, content }) => {
   return (
-    <div style={{
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-      textAlign: 'center',
-      width: '32vw',
-      marginTop: '2rem'
-    }}>
+    <div className='contact-item'>
       <Icon iconKey={iconKey} />
-      <h6 style={{
-        margin: '0.8rem 0',
-        fontSize: '1rem',
-        fontWeight: '600',
-      }}>{title}</h6>
+      <h6>{title}</h6>
       <Text content={content} />
     </div>
   )
