@@ -30,19 +30,17 @@ const BlogList = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 2,
-          initialSlide: 2
         }
       },
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
+          slidesToScroll: 1,
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -51,7 +49,7 @@ const BlogList = () => {
     ]
   };
   return (
-    <div style={{padding: '0 1rem', margin: '9vh auto', maxWidth: '1170px'}}>
+    <div style={{padding: '0 2rem', margin: '9vh auto', maxWidth: '1170px'}}>
       <Slider {...settings}>
         {blogs.map(blog => (
           <BlogItem 
