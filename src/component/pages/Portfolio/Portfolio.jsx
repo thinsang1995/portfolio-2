@@ -11,12 +11,12 @@ import portfolioImg5 from '../../../assets/portfolio-5.jpg'
 import portfolioImg6 from '../../../assets/portfolio-6.jpg'
 
 const works = [
-  {imageSrc: portfolioImg1, imageTitle: 'WEB DESIGN'},
-  {imageSrc: portfolioImg2, imageTitle: 'UX/UI'},
-  {imageSrc: portfolioImg3, imageTitle: 'PHOTOSHOP'},
-  {imageSrc: portfolioImg4, imageTitle: 'WEB DESIGN'},
-  {imageSrc: portfolioImg5, imageTitle: 'UX/UI'},
-  {imageSrc: portfolioImg6, imageTitle: 'WEB DESIGN'},
+  {imageSrc: portfolioImg1, imageTitle: 'BRAND'},
+  {imageSrc: portfolioImg2, imageTitle: 'DESIGN'},
+  {imageSrc: portfolioImg3, imageTitle: 'GRAPHIC'},
+  {imageSrc: portfolioImg4, imageTitle: 'BRAND'},
+  {imageSrc: portfolioImg5, imageTitle: 'DESIGN'},
+  {imageSrc: portfolioImg6, imageTitle: 'BRAND'},
 ]
 
 const Portfolio = (props, ref) => {
