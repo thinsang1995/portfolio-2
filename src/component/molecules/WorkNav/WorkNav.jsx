@@ -1,7 +1,7 @@
 import React from 'react'
 import './WorkNav.css'
 
-const workNavigation = ['all', 'web', 'react', 'redux']
+const workNavigation = ['all', 'brand', 'design', 'graphic']
 
 const WorkFilterNav = () => {
   return (
