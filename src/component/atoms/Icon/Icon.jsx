@@ -38,7 +38,7 @@ const Icon = (props) => {
   }, ['icon-wrapper']).join(' ')
 
   return (
-    <div className={className} >
+    <div className={className} onClick={() => props.handleModelImage(props.index)} >
       <IconComponent />
     </div>
   )
