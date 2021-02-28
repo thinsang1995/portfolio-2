@@ -24,7 +24,7 @@
   .about-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 40vh 1fr;
+    grid-template-rows: 32vh 1fr;
   }
 
   .about-avatar {
